@@ -11,6 +11,44 @@ class XMLProcessor:
         self.excel_path = excel_path
         self.xml_path = xml_path
 
+    def remove_duplicates(self, root, log_callback):
+        """Elimina contactos duplicados por número telefónico, dejando solo el primero."""
+        seen_numbers = {}
+        duplicates_to_remove = []
+        
+        # Primera pasada: identificar duplicados y guardar información
+        for contact in root.findall("Contact"):
+            phone = contact.find("Phone")
+            if phone is not None:
+                phonenumber = phone.find("phonenumber")
+                if phonenumber is not None and phonenumber.text:
+                    numero = phonenumber.text
+                    if numero in seen_numbers:
+                        # Este número ya existe, guardar para eliminar
+                        # Obtener datos del contacto para mostrar
+                        fn_node = contact.find("FirstName")
+                        ln_node = contact.find("LastName")
+                        nombre = (fn_node.text if fn_node is not None else "") or ""
+                        apellido = (ln_node.text if ln_node is not None else "") or ""
+                        duplicates_to_remove.append((contact, numero, nombre, apellido))
+                    else:
+                        # Primera vez que vemos este número, guardarlo
+                        seen_numbers[numero] = contact
+        
+        # Segunda pasada: eliminar duplicados y mostrar en GUI
+        for contact, numero, nombre, apellido in duplicates_to_remove:
+            root.remove(contact)
+            msg = (
+                f"🗑️ Eliminado contacto duplicado {numero}\n"
+                f"   Nombre: '{nombre}' {apellido}"
+            )
+            log_callback(msg)
+        
+        if len(duplicates_to_remove) > 0:
+            log_callback(f"\n📊 Total: {len(duplicates_to_remove)} contactos duplicados eliminados")
+        else:
+            log_callback("✅ No se encontraron contactos duplicados en el XML")
+
     def process(self, progress_callback, log_callback):
         # Leer Excel
         try:
@@ -31,6 +69,9 @@ class XMLProcessor:
             return
 
         root = tree.getroot()
+        
+        # Eliminar contactos duplicados por número telefónico
+        self.remove_duplicates(root, log_callback)
         total = len(df)
 
         for index, row in df.iterrows():

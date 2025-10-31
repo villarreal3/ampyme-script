@@ -723,7 +723,7 @@
 </Contact>
 <Contact>
 <FirstName>Felix</FirstName>
-<LastName>Leon</LastName>
+<LastName>De Leon</LastName>
 <IsPrimary>false</IsPrimary>
 <Primary>0</Primary>
 <Frequent>0</Frequent>
@@ -1574,30 +1574,6 @@
 </Phone>
 </Contact>
 <Contact>
-<FirstName>Regional Bocas</FirstName>
-<LastName>Toro</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>7500741</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Regional Bocas</FirstName>
-<LastName>Toro</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>7500743</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
 <FirstName>Regional</FirstName>
 <LastName>Cocle</LastName>
 <IsPrimary>false</IsPrimary>
@@ -1630,18 +1606,6 @@
 <PhotoUrl />
 <Phone type="Home">
 <phonenumber>7775642</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Regional</FirstName>
-<LastName>David</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>7775644</phonenumber>
 <accountindex>0</accountindex>
 </Phone>
 </Contact>
@@ -1922,18 +1886,6 @@
 </Phone>
 </Contact>
 <Contact>
-<FirstName>Melida</FirstName>
-<LastName>Vargas</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5043960</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
 <FirstName>Yajaira</FirstName>
 <LastName>Valderrama</LastName>
 <IsPrimary>false</IsPrimary>
@@ -2042,54 +1994,6 @@
 </Phone>
 </Contact>
 <Contact>
-<FirstName>Vladimir</FirstName>
-<LastName>Su</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5043960</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yajaira</FirstName>
-<LastName>Valderrama</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5005783</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yakelin</FirstName>
-<LastName>Rivera</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5043929</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yanuris</FirstName>
-<LastName>Delgado</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5005778</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
 <FirstName>Yariela</FirstName>
 <LastName>Castillo</LastName>
 <IsPrimary>false</IsPrimary>
@@ -2098,66 +2002,6 @@
 <PhotoUrl />
 <Phone type="Home">
 <phonenumber>7500742</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yarieth</FirstName>
-<LastName>Castillo</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5043964</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yasmin</FirstName>
-<LastName>Soto</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>9261027</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yilena</FirstName>
-<LastName>Flores</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>9130757</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yorlenys</FirstName>
-<LastName>Bethancourt</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5043952</phonenumber>
-<accountindex>0</accountindex>
-</Phone>
-</Contact>
-<Contact>
-<FirstName>Yorlenys</FirstName>
-<LastName>Caballero</LastName>
-<IsPrimary>false</IsPrimary>
-<Primary>0</Primary>
-<Frequent>0</Frequent>
-<PhotoUrl />
-<Phone type="Home">
-<phonenumber>5005789</phonenumber>
 <accountindex>0</accountindex>
 </Phone>
 </Contact>
